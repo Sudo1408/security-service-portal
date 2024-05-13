@@ -20,7 +20,7 @@ Welcome to our Security Solutions Website Repository! This repository contains t
 - [Typed.js](https://github.com/mattboldt/typed.js)
 - [Swiper.js v11](https://swiperjs.com/)
 
-##Installation
+## Installation
 
 1.**Clone the repository**: `git clone https://github.com/your_username/security-solutions-website.git`
 2.**Open the index.html file in your preferred web browser.**
