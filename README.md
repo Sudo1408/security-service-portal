@@ -22,8 +22,8 @@ Welcome to our Security Solutions Website Repository! This repository contains t
 
 ## Installation
 
--**Clone the repository**: `git clone https://github.com/your_username/security-solutions-website.git`
--**Open the index.html file in your preferred web browser.**
+1. **Clone the repository**: `git clone https://github.com/your_username/security-solutions-website.git`
+2. **Open the index.html file in your preferred web browser.**
 
 ## Usage
 
