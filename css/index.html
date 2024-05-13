@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <nav
+        class="navbar fixed-top navbar-expand-lg wow fadeInDown"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><span
+              class="fw-semibold font-monospace"
+              style="color: rgba(206, 245, 252, 255)"
+              ><i class="fa-solid fa-door-open"></i> Berimbolo</span
+            >
+            <span class="sec-logo">Security</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Price plan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contant">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="header-text text-white wow fadeInLeft">
+        <p>"Stay Ahead of Threats"</p>
+        <h2>
+          With Our Dynamic <br />Security Solutions like
+          <span id="typing"></span>
+        </h2>
+        <a class="btn bg-info-subtle me-3" href="#about">Read More</a>
+        <a class="btn bg-info-subtle me-3" data-bs-theme="dark" href="#contant"
+          >Contact Us</a
+        >
+      </div>
+    </header>
+
+    <section class="py-5 about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 wow fadeInLeft">
+            <img src="/images/about.jpg" class="w-100 h-100" />
+          </div>
+          <div class="col-md-8 about-title wow fadeInRight">
+            <h5 class="text-info" style="letter-spacing: 3px">ABOUT US</h5>
+            <h3>Berimbolo Security: Your Home and Business Security Experts</h3>
+            <p style="margin-top: 20px">
+              Welcome to Berimbolo Security, your trusted partner in securing
+              homes and small businesses. With a focus on excellence and
+              customer satisfaction, we specialize in selling and installing
+              top-quality security systems tailored to your needs. Whether
+              safeguarding your family, property, or livelihood, our experienced
+              team provides reliable security solutions. We prioritize your
+              peace of mind, delivering cutting-edge technology and unmatched
+              service for your safety.
+            </p>
+            <div class="d-flex">
+              <div
+                class="bg-info p-3 me-3 text-center text-white border-bottom border-dark border-3"
+              >
+                <i class="fa-solid fa-star fa-3x mb-2"></i>
+                <h6>10 Years' experience</h6>
+              </div>
+              <div
+                class="bg-dark p-3 me-3 text-center text-white border-bottom border-info border-3"
+              >
+                <i class="fa-solid fa-people-group fa-3x mb-2"></i>
+                <h6>Experienced Team</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 service" id="service">
+      <div class="service-title wow fadeInUp">
+        <h5
+          class="text-center text-info services-title"
+          style="letter-spacing: 3px"
+        >
+          OUR SERVICES
+        </h5>
+        <h4 class="display-4 fw-bold text-center">
+          We Offers Quality CCTV <br />
+          Systems & Services
+        </h4>
+      </div>
+      <div class="card__container">
+        <article class="card__article">
+          <img src="/images/service-1.jpg" alt="image" class="card__img" />
+
+          <div class="card__data">
+            <span class="card__description">Number One</span>
+            <h2 class="card__title">Security risk assessments</h2>
+            <a class="card__button text-info openModal" id="openModal-1"
+              >Read More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </article>
+
+        <div id="myModal-1" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-info">
+                <i class="fa-solid fa-building-shield"></i> Security risk
+                assessments
+              </h2>
+              <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <p>
+                We offer a Security risk assessments service to help companies
+                in identifying, evaluating, and mitigating potential security
+                risks and vulnerabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <article class="card__article">
+          <img src="/images/service-2.jpg" alt="image" class="card__img" />
+
+          <div class="card__data">
+            <span class="card__description">Number Two</span>
+            <h2 class="card__title">Sale & installation of security systems</h2>
+            <a class="card__button text-info openModal" id="openModal-2"
+              >Read More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </article>
+
+        <div id="myModal-2" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-info">
+                <i class="fa-solid fa-hand-holding-dollar"></i> Sale &
+                installation of security systems
+              </h2>
+              <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <p>
+                We offer impelemintg Security Systems like CCTVs and Alarm
+                system. We have an efficiently trained work team,So you will not
+                have to worry about any installation errors
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <article class="card__article">
+          <img src="/images/service-3.jpg" alt="image" class="card__img" />
+
+          <div class="card__data">
+            <span class="card__description">Number Three</span>
+            <h2 class="card__title">Security system maintenance</h2>
+            <a class="card__button text-info openModal" id="openModal-3"
+              >Read More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </article>
+
+        <div id="myModal-3" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-info">
+                <i class="fa-solid fa-screwdriver-wrench"></i> Security system
+                maintenance
+              </h2>
+              <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <p>
+                We offer System Security maintenance. it involves regular
+                monitoring, updating, and maintaining security protocols,
+                configurations, and technologies to address emerging threats and
+                vulnerabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <article class="card__article">
+          <img src="/images/service-4.jpg" alt="image" class="card__img" />
+
+          <div class="card__data">
+            <span class="card__description">Number Four</span>
+            <h2 class="card__title">24/7 monitoring of Security systems</h2>
+            <a class="card__button text-info openModal" id="openModal-4"
+              >Read More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </article>
+
+        <div id="myModal-4" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-info">
+                <i class="fa-solid fa-eye"></i> 24/7 monitoring..(Alarm
+                systems&CCTVs)
+              </h2>
+              <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <p>
+                We offer continuous surveillance and oversight of systems,
+                networks, and environments to detect and respond to security
+                incidents, threats, or anomalies in real-time, around the clock,
+                every day of the week.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 price" id="price">
+      <h5
+        class="text-center text-info services-title wow fadeInUp"
+        style="letter-spacing: 3px"
+      >
+        OUR PRICING
+      </h5>
+      <div class="container mt-5 wow fadeInUp">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card pricing-card">
+              <div class="card-header bg-info text-white">
+                <h3 class="my-3 price-icon">
+                  <i class="fa-solid fa-piggy-bank"></i>
+                </h3>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title">Basic</h2>
+                <ul class="list-unstyled">
+                  <li class="fa-solid fa-circle-check text-info">
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >1x alarm system</span
+                    >
+                  </li>
+                  <br />
+                  <li class="fa-solid fa-circle-check text-info">
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >1x CCTV camera</span
+                    >
+                  </li>
+                  <br />
+                  <li class="fa-solid fa-circle-check text-info">
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >Local CCTV storage</span
+                    >
+                  </li>
+                  <br />
+                  <li class="fa-solid fa-circle-xmark">
+                    <del style="font-family: ubuntu-sans; color: #000"
+                      >centrally monitored</del
+                    >
+                  </li>
+                </ul>
+                <a class="btn btn-info btn-block text-white">Subscribe</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card pricing-card">
+              <div class="card-header bg-info text-white">
+                <h3 class="my-3 price-icon">
+                  <i class="fa-solid fa-hand-holding-dollar"></i>
+                </h3>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title">Standard</h2>
+                <ul class="list-unstyled">
+                  <li class="fa-solid fa-circle-check text-info">
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >1x alarm system</span
+                    >
+                  </li>
+                  <br />
+                  <li class="fa-solid fa-circle-check text-info">
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >2x CCTV camera</span
+                    >
+                  </li>
+                  <br />
+                  <li class="fa-solid fa-circle-check text-info">
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >Online & local CCTV storage</span
+                    >
+                  </li>
+                  <br />
+                  <li class="fa-solid fa-circle-xmark">
+                    <del style="font-family: ubuntu-sans; color: #000"
+                      >centrally monitored</del
+                    >
+                  </li>
+                </ul>
+                <a class="btn btn-info btn-block text-white">Subscribe</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card pricing-card">
+              <div
+                class="card-header text-white"
+                style="background-color: rgba(3, 41, 49, 255)"
+              >
+                <h3 class="my-3 price-icon">
+                  <i class="fa-solid fa-sack-dollar"></i>
+                </h3>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title">Deluxe</h2>
+                <ul class="list-unstyled">
+                  <li
+                    class="fa-solid fa-circle-check"
+                    style="color: rgba(3, 41, 49, 255)"
+                  >
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >1x alarm system</span
+                    >
+                  </li>
+                  <br />
+                  <li
+                    class="fa-solid fa-circle-check"
+                    style="color: rgba(3, 41, 49, 255)"
+                  >
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >4x CCTV camera</span
+                    >
+                  </li>
+                  <br />
+                  <li
+                    class="fa-solid fa-circle-check"
+                    style="color: rgba(3, 41, 49, 255)"
+                  >
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >Online & local CCTV storage</span
+                    >
+                  </li>
+                  <br />
+                  <li
+                    class="fa-solid fa-circle-check"
+                    style="color: rgba(3, 41, 49, 255)"
+                  >
+                    <span style="font-family: ubuntu-sans; color: #000"
+                      >centrally monitored</span
+                    >
+                  </li>
+                </ul>
+                <a
+                  class="btn btn-block text-white"
+                  style="background-color: rgba(3, 41, 49, 255)"
+                  >Subscribe</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="custom-price">
+        <div class="contant-custom-price text-white text-center wow fadeInUp">
+          <h4 class="display-4 fw-bold">We Have Custom Security systems</h4>
+          <p class="mb-xxl-5">
+            To get started, customers must contact us to arrange an assessment
+            and planning meeting.<br />
+            Our team of experts will work closely with you to understand your
+            requirements and develop a comprehensive security strategy.
+          </p>
+          <a class="btn bg-info-subtle btn-contact-price" href="#contant"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="team-container section-bg" id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title wow fadeInUp">
+          <h5
+            class="text-center text-info services-title"
+            style="letter-spacing: 3px"
+          >
+            OUR TEAM
+          </h5>
+          <h4 class="display-4 fw-bold text-center mb-4">
+            We Have A Professional Team
+          </h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="/images/man-1.jpg" class="img-fluid" alt="image" />
+                <div class="social">
+                  <a><i class="fa-brands fa-x-twitter"></i></a>
+                  <a><i class="fa-brands fa-facebook"></i></a>
+                  <a><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Manager Of Sales</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="/images/man-2.jpg" class="img-fluid" alt="image" />
+                <div class="social">
+                  <a><i class="fa-brands fa-x-twitter"></i></a>
+                  <a><i class="fa-brands fa-facebook"></i></a>
+                  <a><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="member-info">
+                  <h4>Jesse Ailish</h4>
+                  <span>Manager Of Security Risk Assessment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3nd -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="/images/man-3.jpg" class="img-fluid" alt="image" />
+                <div class="social">
+                  <a><i class="fa-brands fa-x-twitter"></i></a>
+                  <a><i class="fa-brands fa-facebook"></i></a>
+                  <a><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="member-info">
+                  <h4>Tom Jack</h4>
+                  <span>Manager Of Monitoring Security Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4nd -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="/images/man-4.jpg" class="img-fluid" alt="image" />
+                <div class="social">
+                  <a><i class="fa-brands fa-x-twitter"></i></a>
+                  <a><i class="fa-brands fa-facebook"></i></a>
+                  <a><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="member-info">
+                  <h4>Petar Barker</h4>
+                  <span>Manager Of Installation & Maintenance Team</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+      <div class="section-title wow fadeInUp">
+        <h5
+          class="text-center text-info services-title"
+          style="letter-spacing: 3px"
+        >
+          TESTIMONIAL
+        </h5>
+        <h4 class="display-4 fw-bold text-center mb-4">
+          What People Say About Out Services
+        </h4>
+      </div>
+      <div class="testi-container">
+        <div class="swiper mySwiper wow fadeInUp">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="/images/testimonial1.jpg"
+                alt="image"
+                class="testi-image"
+              />
+              <p>
+                Brimbolo Security provided excellent surveillance and alarm
+                systems for my small business. Their prompt response to any
+                alerts gave me peace of mind knowing my business was protected,
+                especially during off-hours. Their team was professional and
+                their systems were easy to use, making them a valuable asset for
+                my business security needs.
+              </p>
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <div class="testi-details">
+                <span class="name">John Smith</span>
+                <span class="jop">Small Business Owner</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <img
+                src="/images/testimonial2.jpg"
+                alt="image"
+                class="testi-image"
+              />
+              <p>
+                Brimbolo Security installed access control systems and video
+                monitoring in our office premises. Their solutions helped us
+                regulate entry to sensitive areas and provided a sense of
+                security for our staff and clients. Their customer service was
+                exceptional, always available to address any concerns or provide
+                assistance with the system. I highly recommend Brimbolo Security
+                for any business looking to enhance their security measures.
+              </p>
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <div class="testi-details">
+                <span class="name">Emily Johnson</span>
+                <span class="jop">Office Manager</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <img
+                src="/images/testimonial3.jpg"
+                alt="image"
+                class="testi-image"
+              />
+              <p>
+                Brimbolo Security installed a comprehensive home security system
+                for me, including cameras, motion sensors, and smart locks.
+                Their team was professional and knowledgeable, guiding me
+                through the process and ensuring everything was set up
+                correctly. The system has been incredibly reliable, providing me
+                with peace of mind whether I'm at home or away. I appreciate
+                Brimbolo Security's commitment to customer satisfaction and
+                their dedication to keeping my home safe.
+              </p>
+              <i class="fa-solid fa-quote-left quote-icon"></i>
+              <div class="testi-details">
+                <span class="name">Michael Rodriguez</span>
+                <span class="jop">Barber</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next text-info"></div>
+          <div class="swiper-button-prev text-info"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section wow fadeInUp" id="contant">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="contact-form">
+              <div class="contact-header">
+                <h5
+                  class="text-center text-info services-title"
+                  style="letter-spacing: 3px"
+                >
+                  CONTACT US
+                </h5>
+                <h4 class="display-7 fw-bold text-center mb-4">
+                  We'd love to hear from you
+                </h4>
+              </div>
+              <form>
+                <div class="form-group mb-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="form-group mb-2">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="form-group mb-2">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="button" class="btn btn-primary submit-btn">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6 container-contact-shape">
+            <div class="contact-shape">
+              <div class="contact-square"></div>
+              <div class="contact-img"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pd-4">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-info">
+              Berimbolo Security
+            </h5>
+            <p>
+              Berimbolo Security, your trusted partner in securing homes and
+              small businesses. With a focus on excellence and customer
+              satisfaction, we specialize in selling and installing top-quality
+              security systems tailored to your needs.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-info">Menu</h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Home</a
+              >
+            </p>
+            <p>
+              <a href="#about" class="text-white" style="text-decoration: none"
+                >About</a
+              >
+            </p>
+            <p>
+              <a
+                href="#service"
+                class="text-white"
+                style="text-decoration: none"
+                >Services</a
+              >
+            </p>
+            <p>
+              <a href="#price" class="text-white" style="text-decoration: none"
+                >Price Plan</a
+              >
+            </p>
+            <p>
+              <a href="#team" class="text-white" style="text-decoration: none"
+                >Team</a
+              >
+            </p>
+            <p>
+              <a
+                href="#testimonial"
+                class="text-white"
+                style="text-decoration: none"
+                >Testimonial</a
+              >
+            </p>
+            <p>
+              <a
+                href="#contant"
+                class="text-white"
+                style="text-decoration: none"
+                >Contact</a
+              >
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-info">
+              Services
+            </h5>
+            <p class="text-white">Security risk assessments</p>
+            <p class="text-white">
+              Sale and installation of security systems (alarms and CCTV)
+            </p>
+            <p class="text-white">Security system maintenance</p>
+            <p class="text-white">
+              24/7 monitoring of Alarm systems & CCTV footage
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-info">
+              Contact
+            </h5>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> New York, NY 2333, US
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +92 1234567891</p>
+            <p>
+              <i class="fa-solid fa-envelope"></i> berimbolo.sec@outlook.com
+            </p>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p>
+              &copy; <strong class="text-info">Berimbolo Security</strong>. All
+              rights reserved.
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-end">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                  >
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                  >
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                  >
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                  >
+                    <i class="fa-brands fa-tiktok"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/typed.umd.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script>
+      new WOW().init();
+
+      var typed = new Typed("#typing", {
+        strings: [
+          "Security risk assessments",
+          "Sale and installation of <br> security systems",
+          "Security system maintenance",
+          "24/7 monitoring of <br> Alarm systems and CCTV footage",
+        ],
+        typeSpeed: 40,
+        backSpeed: 0,
+        backDelay: 2000,
+        cursorChar: "|",
+        loop: true,
+      });
+
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
