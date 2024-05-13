@@ -10,7 +10,7 @@ Welcome to our Security Solutions Website Repository! This repository contains t
 
 ## Design
 
-🌐 [Demo](/images/Design.png)
+🌐 [Demo](https://sudo1408.github.io/security-service-portal/)
 
 ## Dependencies
 
